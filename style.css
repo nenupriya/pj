@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background: rgb(227, 215, 215);
+}
+nav {
+  background: white;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.dot_container {
+  margin-left: 10px;
+  display: flex;
+}
+
+.dot_one {
+  height: 13px;
+  margin-left: 5px;
+  width: 13px;
+  border-radius: 50%;
+  background-color: rgb(206, 206, 206);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding:0 400px;
+}
+
+.my_name {
+  font-size: 30px;
+}
+
+.my_caption {
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.main_container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+
+.bio_container {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding-left: 70px;
+}
+
+li {
+  padding: 0 8px;
+  font-size: 15px;
+  color: rgb(84, 65, 65);
+}
+
+.image_container {
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  background: rgb(101, 128, 188);
+  margin-right: 40px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+.hello {
+  font-size: 40px;
+}
+
+.main_container-2 {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.links_container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.circle_links-1 {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  background: rgb(233, 68, 68);
+  color: white;
+}
+
+.circle_links-2 {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background: skyblue;
+    color: white;
+
+}
+
+.circle_links-3 {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background: orange;  color: white;
+
+
+}
+
+footer {
+  background: red;
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_div {
+  padding: 0 10px;
+}
